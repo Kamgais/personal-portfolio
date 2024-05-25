@@ -2,12 +2,12 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer class="main-footer">
-            <div class="footer-bottom pt-50 pb-40">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <div class="copyright-text">
+        <footer className="main-footer">
+            <div className="footer-bottom pt-50 pb-40">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12 text-center">
+                            <div className="copyright-text">
                                 <p>
                                     Copyright @2023, <a href="#">Cyril</a> All
                                     Rights Reserved.

@@ -11,10 +11,15 @@ import Contact from './components/sections/contact/contact'
 import Portfolio from './components/sections/portfolio'
 import Footer from './components/sections/footer'
 import ProgressBar from './components/ui/progressBar'
+import { Toaster } from 'react-hot-toast'
 
 const App = () => {
   return (
     <main>
+      <Toaster
+  position="top-center"
+  reverseOrder={false}
+/>
       <Header />
       <Banner />
       <About />
